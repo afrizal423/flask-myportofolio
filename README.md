@@ -32,5 +32,6 @@ Untuk mengupload ke shared hosting [Silahkan baca panduannya](https://www.domain
 
 ## Releases
 Tagging untuk belajar tiap partnya. <br>
--> [Layouting Sederhana](https://github.com/afrizal423/flask-myportofolio/releases/tag/v1)
+-> [Layouting Sederhana](https://github.com/afrizal423/flask-myportofolio/releases/tag/v1) <br>
+-> Get data from MySQLDB dalam bentuk json. (belum release karena belum ada error handling jika npm tidak ada)
 
