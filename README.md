@@ -1,6 +1,7 @@
 <p align="right">
 بِسْــــــــــــــمِ اللَّهِ الرَّحْمَنِ الرَّحِيم 
 </p>
+
 # Website portofolio with Flask
 
 Simple website using Python Flask.
@@ -19,7 +20,7 @@ Install Flask menggunakan [pip](https://pip.pypa.io/en/stable/).
 ```bash
 pip install flask
 ```
-Jalankan denagn perintah
+Jalankan dengan perintah
 ```bash
 python main.py
 ```
@@ -32,3 +33,4 @@ Untuk mengupload ke shared hosting [Silahkan baca panduannya](https://www.domain
 ## Releases
 Tagging untuk belajar tiap partnya.
 -> [Layouting Sederhana](https://github.com/afrizal423/flask-myportofolio/releases/tag/v1)
+
