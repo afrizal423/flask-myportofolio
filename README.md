@@ -28,6 +28,11 @@ python main.py
 ```
 ## Demo
 Silahkan kunjungi [website profil](https://afrizalmy.com) saya.
+### Endpoint URL
+[root](https://afrizalmy.com) default <br>
+[root/mahasiswaif17](https://afrizalmy.com/mahasiswaif17) List mahasiswa angkatan 2017 <br>
+[root/mahasiswaif17/{npm}](https://afrizalmy.com/mahasiswaif17/17081010092) Detail mahasiswa angkatan 2017
+
 
 ### Note
 Untuk mengupload ke shared hosting [Silahkan baca panduannya](https://www.domainesia.com/panduan/cara-menjalankan-flask-python-di-hosting/)
