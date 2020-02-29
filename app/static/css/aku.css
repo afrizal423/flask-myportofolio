@@ -1,0 +1,209 @@
+/*!
+ * Circle Progress Barr
+ * Source Codes: https://bootsnipp.com/snippets/featured/circle-progress-bar
+ */
+
+.progress{
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    background: none;
+    margin: 0 auto;
+    box-shadow: none;
+    position: relative;
+}
+.progress:after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 12px solid #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.progress > span{
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+.progress .progress-left{
+    left: 0;
+}
+.progress .progress-bar{
+    width: 100%;
+    height: 100%;
+    background: none;
+    border-width: 12px;
+    border-style: solid;
+    position: absolute;
+    top: 0;
+}
+.progress .progress-left .progress-bar{
+    left: 100%;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    border-left: 0;
+    -webkit-transform-origin: center left;
+    transform-origin: center left;
+}
+.progress .progress-right{
+    right: 0;
+}
+.progress .progress-right .progress-bar{
+    left: -100%;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-right: 0;
+    -webkit-transform-origin: center right;
+    transform-origin: center right;
+    animation: loading-1 1.8s linear forwards;
+}
+.progress .progress-value{
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    background: #44484b;
+    font-size: 24px;
+    color: #fff;
+    line-height: 135px;
+    text-align: center;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+.progress.python .progress-bar{
+    border-color: #1abc9c;
+}
+.progress.python .progress-right .progress-bar{
+    animation: loading-python 1.8s linear forwards 0.2s;
+}
+.progress.graphic .progress-bar{
+    border-color: #1abc9c;
+}
+.progress.graphic .progress-right .progress-bar{
+    animation: loading-graphic 1.8s linear forwards 0.2s;
+}
+.progress.network .progress-bar{
+    border-color: #1abc9c;
+}
+.progress.network .progress-right .progress-bar{
+    animation: loading-network 1.8s linear forwards 0.2s;
+}
+.progress.php .progress-bar{
+    border-color: #1abc9c;
+}
+.progress.php .progress-left .progress-bar{
+    animation: loading-php 0.2s linear forwards 1.8s;
+}
+.skill-subtitles{
+  position: relative;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+@keyframes loading-1{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+}
+@keyframes loading-network{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(144deg);
+        transform: rotate(144deg);
+    }
+}
+@keyframes loading-3{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
+}
+@keyframes loading-php{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(54deg);
+        transform: rotate(54deg);
+    }
+}
+@keyframes loading-5{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(126deg);
+        transform: rotate(126deg);
+    }
+}
+@keyframes loading-graphic{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(126deg);
+        transform: rotate(126deg);
+    }
+}
+@keyframes loading-python{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(108deg);
+        transform: rotate(108deg);
+    }
+}
+
+
+@media only screen and (max-width: 990px){
+    .progress{ margin-bottom: 20px; }
+}
+
+/*--
+	hobby Start
+--*/
+.hobby {
+  text-align: center;
+  padding: 90px 0;
+}
+.hobby .hobby-item {
+  padding-bottom: 30px;
+}
+.hobby .hobby-item i {
+  font-size: 60px;
+  color: #4A4656;
+}
+.hobby .hobby-item h4 {
+  padding-top: 20px;
+  margin: 0;
+  color: #666;
+}
+.hobby .hobby-item p {
+  color: #888;
+  padding-top: 10px;
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.8;
+}
