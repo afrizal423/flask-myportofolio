@@ -20,7 +20,7 @@ Install Flask menggunakan [pip](https://pip.pypa.io/en/stable/).
 ```bash
 pip install flask
 ```
-Jalankan denagn perintah
+Jalankan dengan perintah
 ```bash
 python main.py
 ```
