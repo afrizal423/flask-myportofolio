@@ -31,6 +31,6 @@ Silahkan kunjungi [website profil](https://afrizalmy.com) saya.
 Untuk mengupload ke shared hosting [Silahkan baca panduannya](https://www.domainesia.com/panduan/cara-menjalankan-flask-python-di-hosting/)
 
 ## Releases
-Tagging untuk belajar tiap partnya.
+Tagging untuk belajar tiap partnya. <br>
 -> [Layouting Sederhana](https://github.com/afrizal423/flask-myportofolio/releases/tag/v1)
 
