@@ -18,9 +18,7 @@ source {nama_virtual}/Scripts/activate
 ```
 Install Flask menggunakan [pip](https://pip.pypa.io/en/stable/).
 ```bash
-pip install flask
-pip install pymysql
-pip install flask-mysql
+pip install -r requirements.txt
 ```
 Jalankan dengan perintah
 ```bash
